@@ -27,7 +27,8 @@ namespace SynchronizedThreads
         {
             for (int number = 0; number < 10; number++)
             {
-                AddIntLocked(number);
+                AddInt(number);
+                //AddIntLocked(number);
             }
         }
 
